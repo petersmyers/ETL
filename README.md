@@ -19,10 +19,10 @@ Our process of cleaning and aggregation continued as follows:
 2) Using Jupyter Notebook, we imported the data from these CSVs into Dataframes using Pandas.
 <br>
 
-3)We imported data examining the average price of gasoline per month (all grades) and imported it into a Dataframe using Pandas.  This data was not in an ideal format, and required re-indexing and transposing to make sure the final Dataframe accurately reflected the data contained in the CSV.
+3) We imported data examining the average price of gasoline per month (all grades) and imported it into a Dataframe using Pandas.  This data was not in an ideal format, and required re-indexing and transposing to make sure the final Dataframe accurately reflected the data contained in the CSV.
 <br>
 
-4)We merged the separate National Park DataFrames concerning number of visitors per month using our Jupyter Notebook.  
+4) We merged the separate National Park DataFrames concerning number of visitors per month using our Jupyter Notebook.  
 <br>
 
 5) Using SQL Alchemy, we loaded our data into SQL so that users may create tables detailing a variety of relationships: visitors per park per month, number of cars per month, price of gas per month vs. number of park visitors per month, etc.
